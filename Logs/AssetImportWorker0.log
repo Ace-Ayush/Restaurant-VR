@@ -1,0 +1,672 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.30f1 (1fb1bf06830e) revision 2077119'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 8112 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+D:\Unity 3D\2020.3.30f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Unity 3D/Restaurant-VR
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+18145
+Successfully changed project path to: D:/Unity 3D/Restaurant-VR
+D:/Unity 3D/Restaurant-VR
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 30.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
+[Subsystems] Discovering subsystems at path D:/Unity 3D/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity 3D/Restaurant-VR/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
+    Vendor:   
+    VRAM:     3962 MB
+    Driver:   27.21.14.6230
+Initialize mono
+Mono path[0] = 'D:/Unity 3D/2020.3.30f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity 3D/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity 3D/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56712
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity 3D/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000671 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 29.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.846 seconds
+Domain Reload Profiling:
+	ReloadAssembly (846ms)
+		BeginReloadAssembly (50ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (584ms)
+			LoadAssemblies (49ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (300ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (165ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (30ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (74ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001534 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.116 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1121ms)
+		BeginReloadAssembly (174ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (889ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (291ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (360ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (257ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.38 seconds
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1506 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.1 MB.
+System memory in use after: 83.1 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1967.
+Total: 2.938400 ms (FindLiveObjects: 0.126500 ms CreateObjectMapping: 0.049400 ms MarkObjects: 2.681900 ms  DeleteObjects: 0.079800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Restaurant Interior Full Pack/2.Scene
+  artifactKey: Guid(0a2a37c2f5d884e338c52956df3322d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/2.Scene using Guid(0a2a37c2f5d884e338c52956df3322d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad23d0bcd88f298d5e47fc2c6548565c') in 0.011063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Restaurant Interior Full Pack/1.Prefabs/floors/floor_1.prefab
+  artifactKey: Guid(ab0ca3fd2f73d4916bb291934d99856d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/1.Prefabs/floors/floor_1.prefab using Guid(ab0ca3fd2f73d4916bb291934d99856d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f0b55dd50aed0ec98016d1fd4e5d76e') in 0.181024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Restaurant Interior Full Pack/4.Models
+  artifactKey: Guid(44acea4e843cc445e842b09db4d3e8f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/4.Models using Guid(44acea4e843cc445e842b09db4d3e8f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b429406a0137b598da5d88f42a4bf16b') in 0.007551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Restaurant Interior Full Pack/3.Materials/items.mat
+  artifactKey: Guid(e69eb9f24986944dba42d64f9bffbe02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/3.Materials/items.mat using Guid(e69eb9f24986944dba42d64f9bffbe02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '671653cd2166662388924b3285c9b55f') in 0.137799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Restaurant Interior Full Pack/1.Prefabs/floors
+  artifactKey: Guid(2a2dfa0a4cd16428183222939f27f386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/1.Prefabs/floors using Guid(2a2dfa0a4cd16428183222939f27f386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '381d32285bfd8eb03c392e7369f91f2e') in 0.004587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Restaurant Interior Full Pack/3.Materials/ground.mat
+  artifactKey: Guid(9f063afa425414e8ea56f18aac9997ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/3.Materials/ground.mat using Guid(9f063afa425414e8ea56f18aac9997ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c262b173476538cd2b9d580ed93efb05') in 0.027186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Restaurant Interior Full Pack/3.Materials/items_texture.png
+  artifactKey: Guid(3042aee1021bc4733a4ec111164ddd4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/3.Materials/items_texture.png using Guid(3042aee1021bc4733a4ec111164ddd4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a177774c65965ca0cef416ed9781830f') in 0.065189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Restaurant Interior Full Pack/1.Prefabs
+  artifactKey: Guid(eb81acc0cf918403885c5ecacee2c59f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/1.Prefabs using Guid(eb81acc0cf918403885c5ecacee2c59f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2d2326bfafad82869236548760fa0ec') in 0.004479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Restaurant Interior Full Pack/3.Materials
+  artifactKey: Guid(db52db1f249a74dfa95cd43c061485a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/3.Materials using Guid(db52db1f249a74dfa95cd43c061485a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6acaf7d51963b15f53c0480ac017fb1b') in 0.005511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Restaurant Interior Full Pack/1.Prefabs/floors/floor_2.prefab
+  artifactKey: Guid(8721be980d10a4f9dac00905eca498d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/1.Prefabs/floors/floor_2.prefab using Guid(8721be980d10a4f9dac00905eca498d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3971e7d53190589e0e9770b2f3b3d33f') in 0.010913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 82.046922 seconds.
+  path: Assets/Restaurant Interior Full Pack/1.Prefabs/addons
+  artifactKey: Guid(0b0620467e2644c5b92626096a16424f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/1.Prefabs/addons using Guid(0b0620467e2644c5b92626096a16424f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bdf952e4ca5946456b6031633fe58be') in 0.008478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.026104 seconds.
+  path: Assets/Restaurant Interior Full Pack/1.Prefabs/addons/bar_table.prefab
+  artifactKey: Guid(e413ad08bc08c4e999e800d4695f6172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/1.Prefabs/addons/bar_table.prefab using Guid(e413ad08bc08c4e999e800d4695f6172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7684091a26d31e25f3cceae7251ca8e6') in 0.021351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Restaurant Interior Full Pack/1.Prefabs/addons/fridge.prefab
+  artifactKey: Guid(fc2fd77dfdf7b4fad9ae2f8470766b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/1.Prefabs/addons/fridge.prefab using Guid(fc2fd77dfdf7b4fad9ae2f8470766b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4423976f1b7e941d8be71f4fdd00d001') in 0.010640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Restaurant Interior Full Pack/1.Prefabs/addons/toilet.prefab
+  artifactKey: Guid(3f3c34eac948f41b39745bf3d1ce5f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/1.Prefabs/addons/toilet.prefab using Guid(3f3c34eac948f41b39745bf3d1ce5f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e238df25524aee7441c4f221e2d35197') in 0.009886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Restaurant Interior Full Pack/1.Prefabs/addons/flowers.prefab
+  artifactKey: Guid(b26eb1171c7bb45d0a3e0219013793e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/1.Prefabs/addons/flowers.prefab using Guid(b26eb1171c7bb45d0a3e0219013793e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25fdbeec0f70315e064fb2e09e4d36d2') in 0.022307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Restaurant Interior Full Pack/1.Prefabs/addons/washbasin.prefab
+  artifactKey: Guid(5d3e6100cc8b848ddb892a9a44bd7deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/1.Prefabs/addons/washbasin.prefab using Guid(5d3e6100cc8b848ddb892a9a44bd7deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da5ad61877261b2611f9f9cf570ef55') in 0.025129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Restaurant Interior Full Pack/1.Prefabs/addons/toilet_wall.prefab
+  artifactKey: Guid(2c2c7358c3e3d400aadd2d3b391c6ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/1.Prefabs/addons/toilet_wall.prefab using Guid(2c2c7358c3e3d400aadd2d3b391c6ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '980340c42f96d82b24ae83b5e62127b7') in 0.021924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Restaurant Interior Full Pack/1.Prefabs/addons/cash_register.prefab
+  artifactKey: Guid(061d8433180ee410c876e592b338cc0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/1.Prefabs/addons/cash_register.prefab using Guid(061d8433180ee410c876e592b338cc0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd57ab654ae3a23d6ce03847187f4011a') in 0.038975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Restaurant Interior Full Pack/1.Prefabs/addons/lamp_2.prefab
+  artifactKey: Guid(017116cb4280b48eca9d618e6bb8a86c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/1.Prefabs/addons/lamp_2.prefab using Guid(017116cb4280b48eca9d618e6bb8a86c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8375da1fa0fe37249388c5c50621f714') in 0.016924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Restaurant Interior Full Pack/1.Prefabs/addons/toilet_door.prefab
+  artifactKey: Guid(05aae47b2350c4201b91b86b5dde5e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/1.Prefabs/addons/toilet_door.prefab using Guid(05aae47b2350c4201b91b86b5dde5e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54727df53088f6867c0e6c4b503ecaa5') in 0.011114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Restaurant Interior Full Pack/1.Prefabs/addons/furniture.prefab
+  artifactKey: Guid(939acb25a987d4cd8b7f54c754182316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/1.Prefabs/addons/furniture.prefab using Guid(939acb25a987d4cd8b7f54c754182316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc54253dcafb7b30508412b89b19c273') in 0.010761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Restaurant Interior Full Pack/1.Prefabs/addons/lamp_1.prefab
+  artifactKey: Guid(516587c299f6d4743ae00f19f7f91418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/1.Prefabs/addons/lamp_1.prefab using Guid(516587c299f6d4743ae00f19f7f91418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99a4e8bab4e7da3a7dd03b675f8709aa') in 0.010245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Restaurant Interior Full Pack/1.Prefabs/addons/cooker.prefab
+  artifactKey: Guid(b42569332bdc146949eaab7e55cfa260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/1.Prefabs/addons/cooker.prefab using Guid(b42569332bdc146949eaab7e55cfa260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a552cb9bf021f9bc609e34b39c76262f') in 0.010875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Restaurant Interior Full Pack/1.Prefabs/addons/monitor.prefab
+  artifactKey: Guid(cdbef1beb6c7f4f48b4532fbd79f08e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/1.Prefabs/addons/monitor.prefab using Guid(cdbef1beb6c7f4f48b4532fbd79f08e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95d8c770560ec5d86763bfadc3a9607a') in 0.009350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Restaurant Interior Full Pack/1.Prefabs/addons/trash.prefab
+  artifactKey: Guid(8cf587075220a4e8aa8f649518c732f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/1.Prefabs/addons/trash.prefab using Guid(8cf587075220a4e8aa8f649518c732f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'babcfbed6eb48e7103db4d516d6971e6') in 0.009575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/Restaurant Interior Full Pack/1.Prefabs/addons/hood.prefab
+  artifactKey: Guid(ebcdbc32ab7854e84a4595a87a000376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/1.Prefabs/addons/hood.prefab using Guid(ebcdbc32ab7854e84a4595a87a000376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b206ccc9d656c783c05a5ae2514d49e') in 0.019226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.992756 seconds.
+  path: Assets/Restaurant Interior Full Pack/4.Models/floor_1.fbx
+  artifactKey: Guid(838c2d173f900481fa56a71f3fe7f03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/4.Models/floor_1.fbx using Guid(838c2d173f900481fa56a71f3fe7f03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85c54acbefa011072156196250067999') in 0.140075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Restaurant Interior Full Pack/4.Models/tables and chairs.fbx
+  artifactKey: Guid(14e167cd9fb3147889c151390b2cc8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/4.Models/tables and chairs.fbx using Guid(14e167cd9fb3147889c151390b2cc8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '635abf69d068b1c22e8ea4a9057a3066') in 0.454746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Restaurant Interior Full Pack/4.Models/wall_1.fbx
+  artifactKey: Guid(ce3c9b544254741f18bd99446fcc08b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/4.Models/wall_1.fbx using Guid(ce3c9b544254741f18bd99446fcc08b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8b9549fba0a8e92ec3d61befaf51b1b') in 0.188167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.897996 seconds.
+  path: Assets/Restaurant Interior Full Pack/1.Prefabs/walls
+  artifactKey: Guid(22a1ebe93c14d4406addf91abdaec0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/1.Prefabs/walls using Guid(22a1ebe93c14d4406addf91abdaec0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bffc66a6b38c2902f3fa4b92f920ecc') in 0.005457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.228162 seconds.
+  path: Assets/Restaurant Interior Full Pack/1.Prefabs/walls/partition_wall.prefab
+  artifactKey: Guid(885cb0e42003c4618a318191717e9622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/1.Prefabs/walls/partition_wall.prefab using Guid(885cb0e42003c4618a318191717e9622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '643105418e5ef851da297f62d86a56d7') in 0.018977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Restaurant Interior Full Pack/1.Prefabs/walls/wall_white.prefab
+  artifactKey: Guid(47b5a1a0c32394a349c905d5a453b35f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/1.Prefabs/walls/wall_white.prefab using Guid(47b5a1a0c32394a349c905d5a453b35f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f75543e36f41cc118edd35fc04e1e3f1') in 0.015650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000481 seconds.
+  path: Assets/Restaurant Interior Full Pack/1.Prefabs/walls/walll_window_green.prefab
+  artifactKey: Guid(8fd8a57a30bb14c5b955916c92840436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/1.Prefabs/walls/walll_window_green.prefab using Guid(8fd8a57a30bb14c5b955916c92840436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d2c5fa5eb24ee75fbd1379ae5fa0ade') in 0.012417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Restaurant Interior Full Pack/1.Prefabs/walls/wall_entry_doors.prefab
+  artifactKey: Guid(a84a166e037c44cd7b6a04d9dcde0a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/1.Prefabs/walls/wall_entry_doors.prefab using Guid(a84a166e037c44cd7b6a04d9dcde0a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2516d07d95a79a3e033f2690092ce4a6') in 0.010483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.869063 seconds.
+  path: Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs
+  artifactKey: Guid(ab9e4784ed99e4b3c8afb8309ccfbf5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs using Guid(ab9e4784ed99e4b3c8afb8309ccfbf5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85c8cac117d63e6c549381d0b8edfde2') in 0.005041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.047923 seconds.
+  path: Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_1.prefab
+  artifactKey: Guid(eb1533f5e2f2d4372a7806fcbea5a463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_1.prefab using Guid(eb1533f5e2f2d4372a7806fcbea5a463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f14684d2b19e962da9a4537c04788d2') in 0.011372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_9.prefab
+  artifactKey: Guid(dfec979831eca455aa9a412c495fd40a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_9.prefab using Guid(dfec979831eca455aa9a412c495fd40a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad9a248652994c6bd8dba19a6691dd2a') in 0.010111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_17.prefab
+  artifactKey: Guid(153fcdbf5b34f429db2c5a070b974430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_17.prefab using Guid(153fcdbf5b34f429db2c5a070b974430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a6b165cb058f90b44982a8d0269aca4') in 0.013546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_20.prefab
+  artifactKey: Guid(63689b24acd974fb4ae75678d5e7c124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_20.prefab using Guid(63689b24acd974fb4ae75678d5e7c124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '275f2c0c14b2a849ebf644186ddb4154') in 0.009382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_22.prefab
+  artifactKey: Guid(f4ef769eb932a4ea0be12aa0e697be92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_22.prefab using Guid(f4ef769eb932a4ea0be12aa0e697be92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16d8b375f124c4821b95139cf03cce30') in 0.009951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_25.prefab
+  artifactKey: Guid(12d4b4d7e986442aaac6296d1e5c045b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_25.prefab using Guid(12d4b4d7e986442aaac6296d1e5c045b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '903fa2257178286ca53b8cf1bb15c2ea') in 0.011891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_15.prefab
+  artifactKey: Guid(0638fef60ec01464fb3e122e513a9460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_15.prefab using Guid(0638fef60ec01464fb3e122e513a9460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f94591285226b7f5cfe82f71c86787b') in 0.021078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_5.prefab
+  artifactKey: Guid(99cf2e5bdd0ac4c43963f7b6f7bea6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_5.prefab using Guid(99cf2e5bdd0ac4c43963f7b6f7bea6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b5bcc2d8885ca10fc0d9ca9a60e4bd1') in 0.015721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_12.prefab
+  artifactKey: Guid(74f47a1d09ac947c8b235880d1b940c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_12.prefab using Guid(74f47a1d09ac947c8b235880d1b940c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '948b04025780bbf702f345cf82e6a8fc') in 0.013459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_14.prefab
+  artifactKey: Guid(4a0f06f0718c7443196a9b8e0f6898da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_14.prefab using Guid(4a0f06f0718c7443196a9b8e0f6898da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d4e3926effec3336195c02cfc0a0650') in 0.013627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_18.prefab
+  artifactKey: Guid(a49a6a359eb874c17acf3f0a541ab207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_18.prefab using Guid(a49a6a359eb874c17acf3f0a541ab207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9ee92228fdac14d0941d5d51ae637b7') in 0.015023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_19.prefab
+  artifactKey: Guid(846d8fd734fe74315853d5b735418db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_19.prefab using Guid(846d8fd734fe74315853d5b735418db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '386e8b3d8571c1592b9cb493bef465a1') in 0.036595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_23.prefab
+  artifactKey: Guid(7a3b9833b065042029e1f1320468829c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_23.prefab using Guid(7a3b9833b065042029e1f1320468829c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7575d9fe5fbc431121d4b532d3a4d991') in 0.015137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_7.prefab
+  artifactKey: Guid(a95f495fb950341569a762d58e6025a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_7.prefab using Guid(a95f495fb950341569a762d58e6025a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '197c42b4eb1788c1e45717cd21e6438d') in 0.014415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_2.prefab
+  artifactKey: Guid(0b67eedffdd07497189666ed2c63cc4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_2.prefab using Guid(0b67eedffdd07497189666ed2c63cc4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09dac5f9997c1adeffc5da33db6cf3eb') in 0.012270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_3.prefab
+  artifactKey: Guid(a91dd663d97fe468cbc205e395f59549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_3.prefab using Guid(a91dd663d97fe468cbc205e395f59549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1260a56fc08b7c7af0bc0b697c2235e6') in 0.011421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_4.prefab
+  artifactKey: Guid(6c027eaa27554422f95a0b55c890a261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_4.prefab using Guid(6c027eaa27554422f95a0b55c890a261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5248b775a767c768814f709f491cf85') in 0.025293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_8.prefab
+  artifactKey: Guid(cc3141f097631451a951bf9988e21a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_8.prefab using Guid(cc3141f097631451a951bf9988e21a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afcd4ddd740911f1bca090eaea5d983b') in 0.010807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_28.prefab
+  artifactKey: Guid(600faba6337d448c1b4098d7d5748761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_28.prefab using Guid(600faba6337d448c1b4098d7d5748761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb2ac37d54965439c9594d4af86a6d40') in 0.010155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_11.prefab
+  artifactKey: Guid(46fc3e947093d4e2cb73884a1c6111a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_11.prefab using Guid(46fc3e947093d4e2cb73884a1c6111a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b521ee9fd1eb9ee8d56d5bab51f38753') in 0.011245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_16.prefab
+  artifactKey: Guid(dc965acf546e94ebf825702252fed7ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_16.prefab using Guid(dc965acf546e94ebf825702252fed7ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7658f78c070c7b64b2d61f319ae1b6a6') in 0.011389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_6.prefab
+  artifactKey: Guid(5bb660b3191544598ba3b79daac62207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_6.prefab using Guid(5bb660b3191544598ba3b79daac62207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4443c4640eecdd6a61c6f1475d096ee9') in 0.011507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_13.prefab
+  artifactKey: Guid(e7cdb7d8d3316495bbd1eac3324e3cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_13.prefab using Guid(e7cdb7d8d3316495bbd1eac3324e3cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6b2f65bda9903714cf22b054dfadde3') in 0.010735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_26.prefab
+  artifactKey: Guid(e27f37a4d85fa41e1bf16acfb7e828b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_26.prefab using Guid(e27f37a4d85fa41e1bf16acfb7e828b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4448a9b51ee43acdda90cccdc89a30cc') in 0.012796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_21.prefab
+  artifactKey: Guid(ac2533dd50500466992bd123c61e0ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_21.prefab using Guid(ac2533dd50500466992bd123c61e0ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '852f3e194a6ffeb9a8298fa7b8aff765') in 0.044223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_24.prefab
+  artifactKey: Guid(ede4758ab2cbf422a8b796bcf3e51a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_24.prefab using Guid(ede4758ab2cbf422a8b796bcf3e51a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7101871871853bcbc6663f13e4158c0') in 0.011505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_10.prefab
+  artifactKey: Guid(3555355e852544e06acab24559c7f729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_10.prefab using Guid(3555355e852544e06acab24559c7f729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dedb7dda3bcdebdbdd9786e6037cb2cf') in 0.010188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_27.prefab
+  artifactKey: Guid(c46411ac4560b4499a42bd86b371859f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_27.prefab using Guid(c46411ac4560b4499a42bd86b371859f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7804811436df01ce94be2a91e74579b3') in 0.011118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.512993 seconds.
+  path: Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_29.prefab
+  artifactKey: Guid(e739ff13e02fd443bba20208787a0273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_29.prefab using Guid(e739ff13e02fd443bba20208787a0273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '777e958e9092446e75000fe6710d0e34') in 0.011491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_31.prefab
+  artifactKey: Guid(d51c34e30c2464c4c9b0471e7c267a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_31.prefab using Guid(d51c34e30c2464c4c9b0471e7c267a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3300e1e796c3f2b38a91aaa529ebcd10') in 0.010463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_34.prefab
+  artifactKey: Guid(50de4240a49d94a828d866bb2d3182c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_34.prefab using Guid(50de4240a49d94a828d866bb2d3182c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab48c518000849ae1fffd916f2f6b4e4') in 0.011003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_30.prefab
+  artifactKey: Guid(5fb3c6555ce744e8394aedb5a92c3bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_30.prefab using Guid(5fb3c6555ce744e8394aedb5a92c3bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '412dd0a541e4d004f1705c689f1b737f') in 0.011052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_32.prefab
+  artifactKey: Guid(0f1c76c9c73ba447682efb02ade1929b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_32.prefab using Guid(0f1c76c9c73ba447682efb02ade1929b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea5aad11a76b0fa158f3509ad5b1cfdb') in 0.012194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_33.prefab
+  artifactKey: Guid(9a6f75566d94a4ae88afc8278ce2e408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Restaurant Interior Full Pack/1.Prefabs/tables_and_chairs/set_33.prefab using Guid(9a6f75566d94a4ae88afc8278ce2e408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d90a2b81ef6ab1b41fe28eff9f0e306') in 0.010781 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001937 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.939 seconds
+Domain Reload Profiling:
+	ReloadAssembly (939ms)
+		BeginReloadAssembly (104ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (767ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (285ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (252ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (155ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1500 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.7 MB.
+System memory in use after: 86.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2014.
+Total: 2.550900 ms (FindLiveObjects: 0.153300 ms CreateObjectMapping: 0.041400 ms MarkObjects: 2.334900 ms  DeleteObjects: 0.020700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002455 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.952 seconds
+Domain Reload Profiling:
+	ReloadAssembly (952ms)
+		BeginReloadAssembly (108ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (788ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (283ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (283ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (183ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1500 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.8 MB.
+System memory in use after: 86.9 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2016.
+Total: 2.846000 ms (FindLiveObjects: 0.137600 ms CreateObjectMapping: 0.041400 ms MarkObjects: 2.639400 ms  DeleteObjects: 0.026200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 945.529036 seconds.
+  path: Assets/Scripts/movement.cs
+  artifactKey: Guid(1356e3bcf0fd19c4f925862dafb97514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/movement.cs using Guid(1356e3bcf0fd19c4f925862dafb97514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9c40149c7d3319229839b39a44c8562') in 0.023229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.352598 seconds.
+  path: Assets/Scripts/DialogueManager.cs
+  artifactKey: Guid(77d4e75196b8be506b0a0e864b186169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueManager.cs using Guid(77d4e75196b8be506b0a0e864b186169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7b552c88a7b21a87fe0a00c4d90bca8') in 0.012344 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
