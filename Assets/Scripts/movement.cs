@@ -6,6 +6,7 @@ using UnityEngine;
 using UnityEngine.UI;
 public class movement : MonoBehaviour
 {
+    private bool iswaving;
    [SerializeField]private float _speed = 7f;
     [SerializeField]private float _mouseSensitivity = 50f;
     [SerializeField]private float _minCameraview = -70f, _maxCameraview = 80f;
@@ -28,6 +29,7 @@ public class movement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        iswaving=false;
         _charController = GetComponent<CharacterController>();
         _fppc.SetActive(true);
                 _tppc.SetActive(false);
@@ -96,10 +98,25 @@ public class movement : MonoBehaviour
             _fppc.SetActive(true);
                 _tppc.SetActive(false);
             istpp=false;
+
         }
         
         }
+
+        if(Input.GetKeyDown(KeyCode.T)){  
+        iswaving=true;
         
+        }
+        if(Input.GetKeyDown(KeyCode.T)){  
+        iswaving=false;
+        }
+        if(iswaving==true){
+            animator.SetBool("iswaving",true);
+       }
+            if(iswaving==false){
+                            animator.SetBool("iswaving",false);
+
+       }
         }
           void FixedUpdate() {
              // _camera.SetActive(true);
@@ -116,6 +133,8 @@ public class movement : MonoBehaviour
             else{
                   animator.SetBool("isWalking",false);
             }
+
+            
         
     }
     

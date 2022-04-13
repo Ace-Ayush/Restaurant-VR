@@ -18,10 +18,8 @@ public class npc_wave : MonoBehaviour
     // Update is called once per frame
    void FixedUpdate()
     {
-                     anim.SetBool("iswaving",true);
 
 
-        /*
        if(Input.GetKeyDown(KeyCode.Y)&&iswaving==false){
             anim.SetBool("iswaving",true);
             iswaving=true;
@@ -30,7 +28,7 @@ public class npc_wave : MonoBehaviour
                             anim.SetBool("iswaving",false);
                             iswaving=false;
 
-       }*/
+       }
         
     }
 }
