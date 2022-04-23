@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":-0.063507080078125,"y":0.011566162109375,"z":0.13720703125},"rotation":{"x":-0.08199382573366165,"y":0.7233755588531494,"z":-0.08722434192895889,"w":-0.680001437664032},"size":606.34033203125,"orthographic":true}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":-94.3184814453125,"y":-5.505309104919434,"z":930.2723388671875},"rotation":{"x":0.18356342613697053,"y":-0.6790682077407837,"z":0.18137358129024507,"w":0.6872606873512268},"size":12.886942863464356,"orthographic":false}
+>>>>>>> parent of 33ee37c (update)

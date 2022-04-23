@@ -20,11 +20,11 @@ public class npc_wave : MonoBehaviour
     {
 
 
-       if(Input.GetKeyDown(KeyCode.H)&&iswaving==false){
+       if(Input.GetKeyDown(KeyCode.Y)&&iswaving==false){
             anim.SetBool("iswaving",true);
             iswaving=true;
        }
-        if(Input.GetKeyDown(KeyCode.H)&&iswaving==true){
+        if(Input.GetKeyDown(KeyCode.Y)&&iswaving==true){
                             anim.SetBool("iswaving",false);
                             iswaving=false;
 
